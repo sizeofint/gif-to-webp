@@ -4,11 +4,13 @@ Golang convert GIF animation to WEBP
 
 ## Installation
 Get package: ```go get github.com/sizeofint/gif-to-webp```
+
 dependencies:
 - https://github.com/sizeofint/webp-animation (Golang binding to libwebp & giflib. see readme for installation instructions)
 
 ## Configuration API
 Descriptions were taken from libwebp source code (https://github.com/webmproject/libwebp)
+
 **WebPConfig:**
 ```
 // Lossless encoding (0=lossy(default), 1=lossless).
