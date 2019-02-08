@@ -2,6 +2,7 @@ package giftowebp
 
 import (
 	"errors"
+	"fmt"
 
 	webpanim "github.com/sizeofint/webp-animation"
 )
@@ -304,7 +305,7 @@ func (i *converter) Convert(gifData []byte) ([]byte, error) {
 
 		muxErr = webpanim.WebPMuxSetAnimationParams(mux, &webPMuxAnimNewParams)
 		if muxErr != webpanim.WebpMuxOk {
-			return nil, errors.New("Could not update loop count")
+			return nil, errors.New(fmt.Sprint("Could not update loop count, code:", muxErr))
 		}
 
 		muxErr = webpanim.WebPMuxAssemble(mux, &webpData)
