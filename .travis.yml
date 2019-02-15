@@ -4,4 +4,4 @@ go:
   - 1.11
 
 before_install:
-  - go get -u github.com/sizeofint/gif-to-webp
+  - go get github.com/sizeofint/webp-animation
