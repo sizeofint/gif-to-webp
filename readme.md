@@ -1,4 +1,7 @@
 # gif-to-webp
+
+[![Build Status](https://travis-ci.org/sizeofint/gif-to-webp.svg?branch=master)](https://travis-ci.org/sizeofint/gif-to-webp)
+
 Golang convert GIF animation to WEBP
 
 
