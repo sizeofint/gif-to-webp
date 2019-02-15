@@ -4,4 +4,4 @@ go:
   - 1.11
 
 before_install:
-  - go get github.com/sizeofint/webp-animation
+  - go get -x github.com/sizeofint/webp-animation
