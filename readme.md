@@ -1,4 +1,4 @@
-❗Attention this package is abandoned... More details 👇  
+❗Attention, this package is abandoned... More details 👇  
 Recently I made a new package, with the package you can convert gif to webp or create completly new animations using Go's `image.Image` interface as frames.  
 [New package](https://github.com/sizeofint/webpanimation)  
 [Example of converting gif to webp](https://github.com/sizeofint/webpanimation/tree/master/examples/gif-to-webp)
